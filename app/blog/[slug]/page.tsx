@@ -48,9 +48,9 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
           </div>
         </div>
       </header>
-      {/* <div className="prose prose-neutral dark:prose-invert max-w-none">
+      <div className="prose prose-neutral dark:prose-invert max-w-none">
         <MDXRemote source={post.content} options={options} />
-      </div> */}
+      </div>
     </article>
   );
 }
